@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uppara Yarragudla Lalitha - Electronics & Communication Engineering Student | Software & VLSI Engineer</title>
+    <meta name="description" content="Portfolio of Uppara Yarragudla Lalitha - Electronics & Communication Engineering Student specializing in VLSI, Antenna Design, and Web Development. Aspiring Software & VLSI Engineer.">
+    <meta name="keywords" content="VLSI, Antenna Design, Web Development, Electronics Engineering, Software Engineer, Portfolio">
+    <meta name="author" content="Uppara Yarragudla Lalitha">
+    <meta name="theme-color" content="#2563eb">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-domain.com/">
+    <meta property="og:title" content="Uppara Yarragudla Lalitha - Portfolio">
+    <meta property="og:description" content="Electronics & Communication Engineering Student specializing in VLSI, Antenna Design, and Web Development">
+    <meta property="og:image" content="https://your-domain.com/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://your-domain.com/">
+    <meta property="twitter:title" content="Uppara Yarragudla Lalitha - Portfolio">
+    <meta property="twitter:description" content="Electronics & Communication Engineering Student specializing in VLSI, Antenna Design, and Web Development">
+    <meta property="twitter:image" content="https://your-domain.com/og-image.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://your-domain.com/">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Uppara Yarragudla Lalitha",
+        "jobTitle": "Electronics & Communication Engineering Student",
+        "description": "Aspiring Software & VLSI Engineer with expertise in VLSI, Antenna Design, and Web Development",
+        "email": "lalitha4a1@gmail.com",
+        "telephone": "+91 7981001599",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Yemmiganur",
+            "addressRegion": "Kurnool District",
+            "addressCountry": "IN",
+            "postalCode": "518360"
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "St. Johns College of Engineering & Technology, JNTUA University"
+        },
+        "knowsAbout": ["VLSI", "Antenna Design", "Web Development", "Electronics Engineering", "Java", "Python", "HTML", "CSS"]
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip to content link -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Animated Background Canvas -->
+    <canvas id="background-canvas" aria-hidden="true"></canvas>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="nav__logo" aria-label="Home">
+                    <span class="nav__logo-text">UYL</span>
+                </a>
+                
+                <ul class="nav__menu" id="nav-menu">
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#skills" class="nav__link">Skills</a></li>
+                    <li><a href="#experience" class="nav__link">Experience</a></li>
+                    <li><a href="#projects" class="nav__link">Projects</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+
+                <div class="nav__actions">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                        <svg class="theme-toggle__icon theme-toggle__icon--light" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                        <svg class="theme-toggle__icon theme-toggle__icon--dark" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+                    
+                    <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                        <span class="nav__toggle-line"></span>
+                        <span class="nav__toggle-line"></span>
+                        <span class="nav__toggle-line"></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        <span class="hero__name">Uppara Yarragudla Lalitha</span>
+                        <span class="hero__subtitle">Electronics & Communication Engineering Student</span>
+                    </h1>
+                    
+                    <p class="hero__tagline">
+                        Aspiring <span class="typewriter" id="typewriter"></span> Engineer
+                    </p>
+                    
+                    <p class="hero__description">
+                        Motivated and enthusiastic learner with a strong foundation in Electronics and Communication Engineering. 
+                        My interests span across VLSI, Antenna Design, Web Development, and emerging technologies.
+                    </p>
+                    
+                    <div class="hero__actions">
+                        <a href="#projects" class="btn btn--primary">View Projects</a>
+                        <a href="assets/U_Y_Lalitha_Resume.pdf" class="btn btn--secondary" download>Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section__title">About Me</h2>
+                <div class="about">
+                    <div class="about__content">
+                        <p>
+                            I am a motivated and enthusiastic learner with a strong foundation in Electronics and Communication Engineering. 
+                            My interests span across VLSI, Antenna Design, Web Development, and emerging technologies.
+                        </p>
+                        <p>
+                            With academic excellence, hands-on mini projects, and volunteering experience, I'm eager to contribute to 
+                            innovative solutions and grow as a professional in the field of software and VLSI engineering.
+                        </p>
+                        <p>
+                            I believe in continuous learning and staying updated with the latest technological advancements to create 
+                            impactful solutions that address real-world challenges.
+                        </p>
+                    </div>
+                    
+                    <div class="about__highlights">
+                        <h3>Key Highlights</h3>
+                        <ul class="highlights-list">
+                            <li>Academic excellence in Electronics & Communication Engineering</li>
+                            <li>Hands-on experience with mini projects and research</li>
+                            <li>Active participation in National Service Scheme (NSS)</li>
+                            <li>Strong foundation in both hardware and software domains</li>
+                            <li>Passionate about emerging technologies and innovation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section__title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-card__icon">💻</div>
+                        <h3 class="skill-card__title">Programming</h3>
+                        <ul class="skill-card__list">
+                            <li>Core Java</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-card__icon">🌐</div>
+                        <h3 class="skill-card__title">Web Development</h3>
+                        <ul class="skill-card__list">
+                            <li>HTML</li>
+                            <li>CSS (Basics)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-card__icon">🔬</div>
+                        <h3 class="skill-card__title">Technologies/Areas</h3>
+                        <ul class="skill-card__list">
+                            <li>VLSI</li>
+                            <li>Antenna Design</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-card__icon">🛠️</div>
+                        <h3 class="skill-card__title">Tools</h3>
+                        <ul class="skill-card__list">
+                            <li>Basics of Computer Operating</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-card__icon">🤝</div>
+                        <h3 class="skill-card__title">Soft Skills</h3>
+                        <ul class="skill-card__list">
+                            <li>Communication</li>
+                            <li>Problem-Solving</li>
+                            <li>Responsibility</li>
+                            <li>Interpersonal Skills</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section__title">Experience & Internships</h2>
+                <div class="timeline">
+                    <div class="timeline__item">
+                        <div class="timeline__content">
+                            <div class="timeline__period">2023 - Present</div>
+                            <h3 class="timeline__title">Application & Web Development Intern</h3>
+                            <div class="timeline__company">Rooman Technology</div>
+                            <p class="timeline__description">
+                                Gained hands-on experience in application development and web technologies, 
+                                working on real-world projects and learning industry best practices.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline__item">
+                        <div class="timeline__content">
+                            <div class="timeline__period">2023 - Present</div>
+                            <h3 class="timeline__title">VLSI Intern</h3>
+                            <div class="timeline__company">SkillDzire</div>
+                            <p class="timeline__description">
+                                Specialized training in VLSI design and implementation, gaining practical 
+                                knowledge in chip design and semiconductor technologies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section__title">Projects & Achievements</h2>
+                <div class="projects-grid">
+                    <div class="project-card" data-tilt>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Ultrasonic Occupancy Counter</h3>
+                            <p class="project-card__description">
+                                Developed a mini project using ultrasonic sensors to count occupancy in real-time. 
+                                Implemented efficient algorithms for accurate detection and counting.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">Electronics</span>
+                                <span class="tag">Sensors</span>
+                                <span class="tag">Arduino</span>
+                            </div>
+                            <div class="project-card__actions">
+                                <button class="btn btn--small" disabled>Live Demo</button>
+                                <button class="btn btn--small btn--outline" disabled>View Code</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-tilt>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">5G Wide Band Star Patch Antenna</h3>
+                            <p class="project-card__description">
+                                Research paper presentation on "Design a Wide Band Star Patch Antenna with Partial Ground 
+                                for 5G Communication" - exploring advanced antenna design for next-generation networks.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">Antenna Design</span>
+                                <span class="tag">5G</span>
+                                <span class="tag">Research</span>
+                            </div>
+                            <div class="project-card__actions">
+                                <button class="btn btn--small" disabled>View Paper</button>
+                                <button class="btn btn--small btn--outline" disabled>Presentation</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-tilt>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">National Service Scheme (NSS)</h3>
+                            <p class="project-card__description">
+                                Active participant in NSS, contributing to community development and social service initiatives. 
+                                Developed leadership skills and social responsibility through various volunteering activities.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">Volunteering</span>
+                                <span class="tag">Leadership</span>
+                                <span class="tag">Community</span>
+                            </div>
+                            <div class="project-card__actions">
+                                <button class="btn btn--small" disabled>Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-tilt>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Portfolio Website</h3>
+                            <p class="project-card__description">
+                                A modern, responsive portfolio website showcasing skills, projects, and achievements. 
+                                Built with semantic HTML5, CSS3, and vanilla JavaScript with accessibility features.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">Web Development</span>
+                                <span class="tag">HTML/CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <div class="project-card__actions">
+                                <a href="#" class="btn btn--small">Live Demo</a>
+                                <a href="#" class="btn btn--small btn--outline">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <h2 class="section__title">Certifications</h2>
+                <div class="certifications-list">
+                    <div class="certification-item">
+                        <h3>Application & Web Development</h3>
+                        <p>Rooman Technology</p>
+                    </div>
+                    <div class="certification-item">
+                        <h3>VLSI Design & Implementation</h3>
+                        <p>SkillDzire</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section__title">Education</h2>
+                <div class="education-timeline">
+                    <div class="education-item">
+                        <div class="education__period">2022 - 2026</div>
+                        <h3 class="education__degree">B.Tech in Electronics & Communication Engineering</h3>
+                        <div class="education__institution">St. Johns College of Engineering & Technology</div>
+                        <div class="education__university">JNTUA University</div>
+                        <div class="education__status">Pursuing</div>
+                    </div>
+                    
+                    <div class="education-item">
+                        <div class="education__period">2020 - 2022</div>
+                        <h3 class="education__degree">Intermediate (MPC)</h3>
+                        <div class="education__institution">Deeksha Junior College, Yemmiganur</div>
+                        <div class="education__score">80%</div>
+                    </div>
+                    
+                    <div class="education-item">
+                        <div class="education__period">2019 - 2020</div>
+                        <h3 class="education__degree">SSC</h3>
+                        <div class="education__institution">MSZP Girls High School, Yemmiganur</div>
+                        <div class="education__score">95%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section__title">Get In Touch</h2>
+                <div class="contact">
+                    <div class="contact__info">
+                        <h3>Contact Information</h3>
+                        <div class="contact__items">
+                            <a href="mailto:lalitha4a1@gmail.com" class="contact__item">
+                                <span class="contact__icon">📧</span>
+                                <span>lalitha4a1@gmail.com</span>
+                            </a>
+                            <a href="tel:+917981001599" class="contact__item">
+                                <span class="contact__icon">📱</span>
+                                <span>+91 7981001599</span>
+                            </a>
+                            <div class="contact__item">
+                                <span class="contact__icon">📍</span>
+                                <span>Yemmiganur, Kurnool District, Andhra Pradesh - 518360</span>
+                            </div>
+                            <a href="#" class="contact__item" aria-label="LinkedIn Profile (Coming Soon)">
+                                <span class="contact__icon">💼</span>
+                                <span>LinkedIn (Coming Soon)</span>
+                            </a>
+                            <a href="#" class="contact__item" aria-label="GitHub Profile (Coming Soon)">
+                                <span class="contact__icon">🐙</span>
+                                <span>GitHub (Coming Soon)</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <form class="contact__form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p class="footer__copyright">
+                    © <span id="current-year">2024</span> Uppara Yarragudla Lalitha. All rights reserved.
+                </p>
+                
+                <button class="theme-toggle theme-toggle--footer" id="theme-toggle-footer" aria-label="Toggle theme">
+                    <svg class="theme-toggle__icon theme-toggle__icon--light" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="theme-toggle__icon theme-toggle__icon--dark" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
